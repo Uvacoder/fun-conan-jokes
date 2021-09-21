@@ -1,7 +1,7 @@
 {
   "name": "conan-jokes",
   "version": "0.0.1",
-  "homepage": "http://brendansudol.github.io/conan-jokes",
+  "homepage": "https://test-conan-jokes.vercel.app",
   "private": true,
   "dependencies": {
     "ace-css": "^1.1.0",
@@ -25,7 +25,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "prettier": "prettier --single-quote --trailing-comma all --semi false --write \"src/**/*.js\""
   }
 }
